@@ -54,6 +54,17 @@ const config: GatsbyConfig = {
     },
     {
       resolve: "gatsby-plugin-s3",
+      options: {
+        /* TEST SITE DEPLOY */
+        bucketName: "lucky-moon-test",
+        protocol: "http",
+        hostname: "lucky-moon-test.s3-website-us-east-1.amazonaws.com/",
+
+        /* PRODUCTION DEPLOY */
+        // bucketName: "luckymoontattoo",
+        // protocol: "https",
+        // hostname: "luckymoontattoo.com",
+      },
     },
   ],
 };
