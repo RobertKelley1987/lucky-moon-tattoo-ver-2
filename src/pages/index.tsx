@@ -39,7 +39,7 @@ const IndexPage = ({ location }: PageProps) => {
             </section>
 
             <section className="home-section">
-              <div className="heading-wrappera">
+              <div className="heading-wrapper">
                 <span>Like what you see?</span>
                 <Link to="/contact" className="heading-link">
                   <SectionTitle>Get In Touch</SectionTitle>

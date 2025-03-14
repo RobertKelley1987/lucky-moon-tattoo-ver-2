@@ -32,6 +32,10 @@ a {
   text-decoration: none;
 }
 
+p {
+  line-height: 2rem;
+}
+
 button {
   appearance: none;
   padding: 0;
@@ -338,10 +342,6 @@ form {
   gap: 1rem;
 }
 
-.tattoo-modal-text-wrapper p {
-  line-height: 100%;
-}
-
 .tattoo-modal-title {
   font-family: "Poppins", sans-serif;
   line-height: 110%;
@@ -350,7 +350,7 @@ form {
 
 .tattoo-modal-text {
   font-family: "IBM Plex Mono";
-  line-height: 2rem;
+  line-height: 100%;
 }
 
 .tattoo-modal-buttons-wrapper {
@@ -1470,6 +1470,10 @@ on initial hover for hover italic effect. */
 }
 
 /* FAQ PAGE */
+.faqs-wrapper div:last-child .faq-answer {
+  padding: 0;
+}
+
 .faq-wrapper {
   align-items: flex-start;
   display: flex;

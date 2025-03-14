@@ -57,7 +57,7 @@ function FAQPage() {
               <span>You've got questions. We've got answers.</span>
               <PageTitle>FAQs</PageTitle>
             </div>
-            <div>
+            <div className="faqs-wrapper">
               {faqs.map((faq) => (
                 <FAQ key={faq.id} faq={faq} />
               ))}
