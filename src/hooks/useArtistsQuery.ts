@@ -5,11 +5,15 @@ import type { ArtistNode, MdxResponse } from "../types";
 export function useArtistsQuery() {
   const data = useStaticQuery<MdxResponse<ArtistNode>>(graphql`
     query ArtistSectionQuery {
-      allMdx(filter: { frontmatter: { type: { eq: "artist" } } }) {
+      allMdx(
+        sort: { frontmatter: { order: ASC } }
+        filter: { frontmatter: { type: { eq: "artist" } } }
+      ) {
         nodes {
           id
           frontmatter {
             name
+            order
             position
             instagramHandle
             slug

@@ -5,8 +5,6 @@ import { useMenu } from "../../../hooks/useMenu";
 function Nav() {
   const { menuState, setMenuState } = useMenu();
 
-  console.log(menuState);
-
   function handleClick() {
     setMenuState("artists");
   }

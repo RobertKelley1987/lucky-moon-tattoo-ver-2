@@ -990,7 +990,7 @@ on initial hover for hover italic effect. */
   grid-template-columns: 1fr 1fr;
   gap: 1.5rem;
   position: static;
-  bottom: 2rem;
+  bottom: 0;
   width: 125%;
 }
 

@@ -28,7 +28,5 @@ export function useTattooQuery() {
     }
   `);
 
-  console.log(data.allMdx.nodes);
-
   return { allTattoos: data.allMdx.nodes };
 }
