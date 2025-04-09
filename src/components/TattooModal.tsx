@@ -27,7 +27,6 @@ function TattooModal() {
 
   function renderModal() {
     const artist = selectedTattoo?.frontmatter.artist;
-
     return (
       <Modal onDismiss={() => setSelectedTattoo(null)}>
         <div

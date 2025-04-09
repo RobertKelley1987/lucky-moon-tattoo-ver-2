@@ -1224,6 +1224,7 @@ on initial hover for hover italic effect. */
 .artist-image {
   display: flex;
   min-height: 100%;
+  width: 100%;
 }
 
 .artist-title {
@@ -1310,6 +1311,7 @@ on initial hover for hover italic effect. */
 }
 
 .about-grid {
+  align-items: end;
   display: grid;
   gap: 2rem;
   grid-template-columns: auto;
@@ -1317,7 +1319,6 @@ on initial hover for hover italic effect. */
 
 .about-image-top {
   bottom: calc(100% + 2rem);
-  display: none;
   position: absolute;
 }
 
@@ -1335,12 +1336,17 @@ on initial hover for hover italic effect. */
 }
 
 .about-image {
+  aspect-ratio: 550/310;
   object-fit: cover;
   width: 100%;
 }
 
 .about-section-text {
   line-height: 32px;
+}
+
+.about-section-text--intro {
+  align-self: start;
 }
 
 .about-section {
@@ -1430,14 +1436,6 @@ on initial hover for hover italic effect. */
     height: auto;
     width: 100%;
   }
-
-  .about-image {
-    aspect-ratio: 500 / 440;
-  }
-
-  .about-image-top {
-    display: block;
-  }
 }
 
 @media (min-width: 800px) {
@@ -1449,12 +1447,6 @@ on initial hover for hover italic effect. */
   .about-svg {
     grid-column: span 1;
     grid-row: 1 / span 2;
-  }
-}
-
-@media (min-width: 885px) {
-  .about-image-last {
-    display: none;
   }
 }
 

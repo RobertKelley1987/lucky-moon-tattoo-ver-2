@@ -42,7 +42,7 @@ const contactInfo: ContactLib = {
       .
     </>
   ),
-  "nathan-miller": (
+  "nate-miller": (
     <>
       You can make an appointment with Nathan through his{" "}
       <a
@@ -85,6 +85,25 @@ const contactInfo: ContactLib = {
         contacting the shop
       </Link>
       . Check out some samples of Izaiah's work below!
+    </>
+  ),
+  "andrew-silva": (
+    <>
+      Andrew is available for appointments during all normal business hours. You
+      can schedule an appointment with Andrew via{" "}
+      <a
+        className="para-link"
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://instagram.com/andrewsilvatattoo"
+      >
+        Instagram
+      </a>{" "}
+      or by{" "}
+      <Link className="para-link" to="/contact">
+        contacting the shop
+      </Link>
+      .
     </>
   ),
 };

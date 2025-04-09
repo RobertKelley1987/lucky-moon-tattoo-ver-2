@@ -27,11 +27,6 @@ const faqs: FAQType[] = [
     q: "How much will this cost?",
     a: "The total cost will depend on the size, location and complexity of your project. When you start planning your tattoo with one of our artists they should be able to provide a rough estimate. Our shop does have a $100 minimum, except for discounts advertised during special events.",
   },
-  {
-    id: 5,
-    q: "Can I bring a friend?",
-    a: "Of course you can bring a friend. Having said that, these tattoos can take a while, so they might get bored. Use your best judgment.",
-  },
 ];
 
 function FAQPage() {

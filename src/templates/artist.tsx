@@ -1,4 +1,5 @@
 import React from "react";
+import { useEffect, useRef } from "react";
 import { graphql } from "gatsby";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import TattooContextProvider from "../context/TattooContext";
@@ -144,6 +145,7 @@ export const query = graphql`
       }
     }
     tattoos: allMdx(
+      sort: { id: ASC }
       filter: { frontmatter: { type: { eq: "tattoo" }, artist: { eq: $name } } }
       limit: 12
     ) {

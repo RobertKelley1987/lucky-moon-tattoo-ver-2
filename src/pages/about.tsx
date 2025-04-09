@@ -36,7 +36,7 @@ function AboutPage() {
               <div className="about-images">
                 <div>
                   <img
-                    src="/images/sanitation.png"
+                    src="/images/legs.png"
                     alt="Tattoo artist cleaning a chair."
                     className="about-image"
                   />
@@ -50,14 +50,14 @@ function AboutPage() {
                 </div>
                 <div className="about-image-top">
                   <img
-                    src="/images/guns.png"
+                    src="/images/sanitation.png"
                     alt="A used tattoo gun sitting on a desk."
                     className="about-image"
                   />
                 </div>
               </div>
 
-              <div className="about-section-text">
+              <div className="about-section-text about-section-text--intro">
                 <p>
                   Lucky Moon Tattoo is Smithfield, Rhode Island's first tattoo
                   parlor. We think that any tattoo is badass, and we want our

@@ -9,7 +9,7 @@ function FeaturedTattoos() {
         filter: {
           frontmatter: { type: { eq: "tattoo" }, featured: { eq: true } }
         }
-        sort: { frontmatter: { artist: ASC } }
+        sort: { frontmatter: { featuredOrder: ASC } }
       ) {
         nodes {
           id
